@@ -1,0 +1,20 @@
+{
+  "name": "simple-blog-api",
+  "version": "1.0.0",
+  "description": "Red Core Solutions - Exam",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "Ernest Vier Castillo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
